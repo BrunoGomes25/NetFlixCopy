@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html class="html" lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,62 +8,63 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
+    <div class="background"></div>
     <main class="primeiro-layout">
-        <header>
-            <h1>NetFlix</h1>
-            <select name="linguagem" id="linguagem">
-                <option value="portugues">portugues</option>
+        <header class="cabecalho">
+            <h1 class="netflix">NetFlix</h1>
+            <select class="linguagem" name="linguagem" id="linguagem">
+                <option value="portugues">Portugues</option>
                 <option value="ingles">ingles</option>
                 <option value="espanhol">espanhol</option>
                 <option value="japones">japones</option>
             </select>
-            <button type="submit">Entrar</button>
+            <button class="button" type="submit">Entrar</button>
         </header>
-        <section>   
-            <h1>Filmes, series e muito mais, sem limites</h1>
+        <section class="main-text">   
+            <h1 >Filmes, series e muito mais, sem limites</h1>
             <p>Assista onde quiser. Cancele quando quiser.</p>
-            <fieldset>
                 <label for="Email"> quer assistir? informe seu email para criar ou reiniciar sua assinatura.</label>
                 <input type="email" name="email" id="email" placeholder=" Email">
-                <button type="submit"> Vamos la</button>
-            </fieldset>
+                <button type="submit"> Vamos la ></button>
         </section>
     </main>
     <section>
         <div class="blue-back">
             <div class="TV">
+                <div class="text">
                 <h2>Aproveite na TV</h2>
                 <p>Assista em smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blue-ray e outros dispositos.</p>
+                </div>
                 <img src="IMG/Dont_look-removebg-preview.png" alt="">
             </div>
-            <div>
-                -----------------------------------------
-            </div>
             <div class="assista">
+                <img src="IMG/Bridgerton-removebg-preview.png" alt="">
+                <div class="text">
                 <h2>Assista onde quiser</h2>
                 <p>Assista a quantos filmes filmes e series quiser no celular, tablet, laptop e TV.</p>
-                <img src="IMG/Bridgerton-removebg-preview.png" alt="">
-            </div>
-            <div>
-                -----------------------------------------
+               </div>
             </div>
             <div class="Perfis">
+                <div class="text">
                 <h2>Crie perfis para crianças</h2>
                 <p>Deixe as crianças se aventurarem com seus pesonagens favoritos em um espaço feito so para elas, sem pagar a mais por isso.</p>
+                </div>
                 <img src="IMG/Infantil-removebg-preview.png" alt="">
             </div>
-            <div>
-                -----------------------------------------
-            </div>
             <div class="baixar">
+                <img src="IMG/Strange-removebg-preview.png" alt="">
+                <div class="text">
                 <h2>Baixe series para assistir offiline</h2>
                 <p>Disponiveis somente em planos sem anuncios.</p>
-                <img src="IMG/Strange-removebg-preview.png" alt="">
+                </div>
             </div>
         </div>
     </section>
-    <nav>
+    <section class="black">
+    <nav class="navegaçao">
+        <div class="perguntas">
         <h1>Perguntas Frequentes</h1>
+        </div>
         <ul>
             <li> O que é a Netflix?</li>
             <li> Quanto custa a Netflix?</li>
@@ -72,13 +73,16 @@
             <li> O que eu posso assistir na Netflix?</li>
             <li>A Netflix é adequada para crianças?</li>
         </ul>
-        <div>
-            <label for="Email"> quer assistir? informe seu email para criar ou reiniciar sua assinatura.</label>
-                <input type="email" name="email" id="email" placeholder=" Email">
+        <div class="cadastro">
+            <h3> quer assistir? informe seu email para criar ou reiniciar sua assinatura.</h3>
+            <div class="cadastro-email">  
+            <input type="email" name="email" id="email" placeholder=" Email">
                 <button type="submit"> Vamos la</button>
+            </div> 
         </div>
     </nav>
-    <footer>
+    </section>
+    <footer class="rodape">
         <div>
             <p>Duvidas? ligue 0800 591 8942</p>
         </div>
